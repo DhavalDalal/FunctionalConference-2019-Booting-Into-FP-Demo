@@ -8,7 +8,10 @@ Functions Everywhere:
   * Black-Hole
   * Mother's Love
   * Politician    
-* Side-effect or Useful effect?    
+* Are Side-effects bad? Is it a Side-effect or Useful effect?
+  * Controlled Effects - Towards a Programming Language Nirvana - Simon Peyton Jones
+  * Comprehending Monads - Is there a way to combine the indulgences of impurity with the 
+  blessings of purity? - Phil Wadler
 * Understanding Referential Transparency
   * To satisfy RT, a function must be
     * Pure
@@ -24,8 +27,8 @@ Lambda - λ:
     * A Regular function (Function, BiFunction)
     * Black-Hole (Consumer)
     * Mother's Love (Supplier, Callable)
-    * Politician (Runnable)
     * Spock (Predicate)
+    * Politician (Runnable)
 * Every"thing" is a λ - Build abstractions from Higher-Order Functions (HoFs)
   * Pass Function to a Function
   * Return a Function from a Function
@@ -37,7 +40,7 @@ Lambda - λ:
 * Evaluation
   * Eager or Strict
   * Lazy
-    * Haskell is lazy by default, provides a "strict" switch
+    * Haskell is lazy by default, but provides a "strict" switch
     * Scala is eager by default, but provides a "lazy" switch
     * In Java, we simulate it by wrapping in a Lambda
 

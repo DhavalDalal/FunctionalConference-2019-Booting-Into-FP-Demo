@@ -17,7 +17,7 @@ class User {
 }
 
 class UserRepository {
-  public User findBy(String id) {
+  public User findById(String id) {
     if (null == id || id.isEmpty()) {
       System.out.println("No User Found");
       return null;
@@ -33,7 +33,7 @@ class _10_SequencingOperations {
     String frequentFlyerId = "123456789";
     // String frequentFlyerId = null;
     UserRepository userRepository = new UserRepository();
-    User user = userRepository.findBy(frequentFlyerId);
+    User user = userRepository.findById(frequentFlyerId);
     String targetPage = null;
     int miles = 7000;
     if (user != null) {
